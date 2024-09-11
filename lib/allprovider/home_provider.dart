@@ -25,7 +25,7 @@ class HomeProvider extends ChangeNotifier{
           backgroundColor: Colors.red,
           showCloseIcon: true,
           behavior: SnackBarBehavior.floating,
-          duration: Duration(seconds: 2),
+          duration: Duration(seconds: 1),
 
         ),
       );
@@ -52,7 +52,7 @@ class HomeProvider extends ChangeNotifier{
           backgroundColor: Colors.blue,
           showCloseIcon: true,
           behavior: SnackBarBehavior.floating,
-          duration: Duration(seconds: 2),
+          duration: Duration(seconds: 1),
         ),
       );
       print(controller.text);
@@ -80,7 +80,7 @@ class HomeProvider extends ChangeNotifier{
         backgroundColor: Colors.green,
         showCloseIcon: true,
         behavior: SnackBarBehavior.floating,
-        duration: Duration(seconds: 2),
+        duration: Duration(seconds: 1),
       ),
     );
     notifyListeners();
@@ -109,7 +109,7 @@ class HomeProvider extends ChangeNotifier{
         backgroundColor: Colors.deepOrangeAccent,
         showCloseIcon: true,
         behavior: SnackBarBehavior.floating,
-        duration: Duration(seconds: 2),
+        duration: Duration(seconds: 1),
       ),
     );
     notifyListeners();
