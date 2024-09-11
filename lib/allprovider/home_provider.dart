@@ -49,7 +49,7 @@ class HomeProvider extends ChangeNotifier{
               Text("Todo added successfully"),
             ],
           ),
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.blue,
           showCloseIcon: true,
           behavior: SnackBarBehavior.floating,
           duration: Duration(seconds: 2),
